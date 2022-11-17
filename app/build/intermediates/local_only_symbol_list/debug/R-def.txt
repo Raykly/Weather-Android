@@ -26,6 +26,7 @@ string app_name
 string hint_user_field
 string logo
 string main_btn
+string no_user_input
 style Theme.WeatherApp
 xml backup_rules
 xml data_extraction_rules

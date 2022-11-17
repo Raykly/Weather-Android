@@ -10,83 +10,87 @@
 9        android:targetSdkVersion="32" />
 9-->C:\Users\lawa\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml
 10
-11    <application
-11-->C:\Users\lawa\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml:5:5-32:19
-12        android:allowBackup="true"
-12-->C:\Users\lawa\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml:6:9-35
-13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-13-->[androidx.core:core:1.7.0] C:\Users\lawa\.gradle\caches\transforms-3\5586099dc2be2a001572cf14c2426ba8\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
-14        android:dataExtractionRules="@xml/data_extraction_rules"
-14-->C:\Users\lawa\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml:7:9-65
-15        android:debuggable="true"
-16        android:fullBackupContent="@xml/backup_rules"
-16-->C:\Users\lawa\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml:8:9-54
-17        android:icon="@mipmap/ic_launcher"
-17-->C:\Users\lawa\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml:9:9-43
-18        android:label="@string/app_name"
-18-->C:\Users\lawa\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml:10:9-41
-19        android:roundIcon="@mipmap/ic_launcher_round"
-19-->C:\Users\lawa\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml:11:9-54
-20        android:supportsRtl="true"
-20-->C:\Users\lawa\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml:12:9-35
-21        android:testOnly="true"
-22        android:theme="@style/Theme.WeatherApp" >
-22-->C:\Users\lawa\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml:13:9-48
-23        <activity
-23-->C:\Users\lawa\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml:15:9-28:20
-24            android:name="com.example.weatherapp.MainActivity"
-24-->C:\Users\lawa\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml:16:13-41
-25            android:exported="true"
-25-->C:\Users\lawa\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml:17:13-36
-26            android:screenOrientation="portrait" >
-26-->C:\Users\lawa\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml:18:13-49
-27            <intent-filter>
-27-->C:\Users\lawa\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml:19:13-23:29
-28                <action android:name="android.intent.action.MAIN" />
-28-->C:\Users\lawa\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml:20:17-69
-28-->C:\Users\lawa\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml:20:25-66
-29
-30                <category android:name="android.intent.category.LAUNCHER" />
-30-->C:\Users\lawa\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml:22:17-77
-30-->C:\Users\lawa\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml:22:27-74
-31            </intent-filter>
-32
-33            <meta-data
-33-->C:\Users\lawa\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml:25:13-27:36
-34                android:name="android.app.lib_name"
-34-->C:\Users\lawa\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml:26:17-52
-35                android:value="" />
-35-->C:\Users\lawa\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml:27:17-33
-36        </activity>
-37
-38        <meta-data
-38-->C:\Users\lawa\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml:29:9-31:57
-39            android:name="preloaded_fonts"
-39-->C:\Users\lawa\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml:30:13-43
-40            android:resource="@array/preloaded_fonts" />
-40-->C:\Users\lawa\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml:31:13-54
-41
-42        <provider
-42-->[androidx.emoji2:emoji2:1.0.0] C:\Users\lawa\.gradle\caches\transforms-3\4b580972190c9e236a669c6a1f1f8a9e\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
-43            android:name="androidx.startup.InitializationProvider"
-43-->[androidx.emoji2:emoji2:1.0.0] C:\Users\lawa\.gradle\caches\transforms-3\4b580972190c9e236a669c6a1f1f8a9e\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
-44            android:authorities="com.example.weatherapp.androidx-startup"
-44-->[androidx.emoji2:emoji2:1.0.0] C:\Users\lawa\.gradle\caches\transforms-3\4b580972190c9e236a669c6a1f1f8a9e\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
-45            android:exported="false" >
-45-->[androidx.emoji2:emoji2:1.0.0] C:\Users\lawa\.gradle\caches\transforms-3\4b580972190c9e236a669c6a1f1f8a9e\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
-46            <meta-data
-46-->[androidx.emoji2:emoji2:1.0.0] C:\Users\lawa\.gradle\caches\transforms-3\4b580972190c9e236a669c6a1f1f8a9e\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
-47                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-47-->[androidx.emoji2:emoji2:1.0.0] C:\Users\lawa\.gradle\caches\transforms-3\4b580972190c9e236a669c6a1f1f8a9e\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
-48                android:value="androidx.startup" />
-48-->[androidx.emoji2:emoji2:1.0.0] C:\Users\lawa\.gradle\caches\transforms-3\4b580972190c9e236a669c6a1f1f8a9e\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
-49            <meta-data
-49-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\lawa\.gradle\caches\transforms-3\dd1064e81b3445eb173cd45521bfd469\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
-50                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-50-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\lawa\.gradle\caches\transforms-3\dd1064e81b3445eb173cd45521bfd469\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
-51                android:value="androidx.startup" />
-51-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\lawa\.gradle\caches\transforms-3\dd1064e81b3445eb173cd45521bfd469\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
-52        </provider>
-53    </application>
-54
-55</manifest>
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\lawa\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml:5:5-66
+11-->C:\Users\lawa\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml:5:22-64
+12
+13    <application
+13-->C:\Users\lawa\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml:7:5-33:19
+14        android:allowBackup="true"
+14-->C:\Users\lawa\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml:8:9-35
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.7.0] C:\Users\lawa\.gradle\caches\transforms-3\5586099dc2be2a001572cf14c2426ba8\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+16        android:dataExtractionRules="@xml/data_extraction_rules"
+16-->C:\Users\lawa\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml:9:9-65
+17        android:debuggable="true"
+18        android:fullBackupContent="@xml/backup_rules"
+18-->C:\Users\lawa\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml:10:9-54
+19        android:icon="@mipmap/ic_launcher"
+19-->C:\Users\lawa\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml:11:9-43
+20        android:label="@string/app_name"
+20-->C:\Users\lawa\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml:12:9-41
+21        android:roundIcon="@mipmap/ic_launcher_round"
+21-->C:\Users\lawa\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml:13:9-54
+22        android:supportsRtl="true"
+22-->C:\Users\lawa\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml:14:9-35
+23        android:testOnly="true"
+24        android:theme="@style/Theme.WeatherApp" >
+24-->C:\Users\lawa\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml:15:9-48
+25        <activity
+25-->C:\Users\lawa\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml:17:9-29:20
+26            android:name="com.example.weatherapp.MainActivity"
+26-->C:\Users\lawa\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml:18:13-41
+27            android:exported="true"
+27-->C:\Users\lawa\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml:19:13-36
+28            android:screenOrientation="portrait" >
+28-->C:\Users\lawa\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml:20:13-49
+29            <intent-filter>
+29-->C:\Users\lawa\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml:21:13-25:29
+30                <action android:name="android.intent.action.MAIN" />
+30-->C:\Users\lawa\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml:22:17-69
+30-->C:\Users\lawa\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml:22:25-66
+31
+32                <category android:name="android.intent.category.LAUNCHER" />
+32-->C:\Users\lawa\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml:24:17-77
+32-->C:\Users\lawa\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml:24:27-74
+33            </intent-filter>
+34
+35            <meta-data
+35-->C:\Users\lawa\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml:26:13-28:36
+36                android:name="android.app.lib_name"
+36-->C:\Users\lawa\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml:27:17-52
+37                android:value="" />
+37-->C:\Users\lawa\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml:28:17-33
+38        </activity>
+39
+40        <meta-data
+40-->C:\Users\lawa\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml:30:9-32:57
+41            android:name="preloaded_fonts"
+41-->C:\Users\lawa\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml:31:13-43
+42            android:resource="@array/preloaded_fonts" />
+42-->C:\Users\lawa\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml:32:13-54
+43
+44        <provider
+44-->[androidx.emoji2:emoji2:1.0.0] C:\Users\lawa\.gradle\caches\transforms-3\4b580972190c9e236a669c6a1f1f8a9e\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+45            android:name="androidx.startup.InitializationProvider"
+45-->[androidx.emoji2:emoji2:1.0.0] C:\Users\lawa\.gradle\caches\transforms-3\4b580972190c9e236a669c6a1f1f8a9e\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
+46            android:authorities="com.example.weatherapp.androidx-startup"
+46-->[androidx.emoji2:emoji2:1.0.0] C:\Users\lawa\.gradle\caches\transforms-3\4b580972190c9e236a669c6a1f1f8a9e\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
+47            android:exported="false" >
+47-->[androidx.emoji2:emoji2:1.0.0] C:\Users\lawa\.gradle\caches\transforms-3\4b580972190c9e236a669c6a1f1f8a9e\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
+48            <meta-data
+48-->[androidx.emoji2:emoji2:1.0.0] C:\Users\lawa\.gradle\caches\transforms-3\4b580972190c9e236a669c6a1f1f8a9e\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+49                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+49-->[androidx.emoji2:emoji2:1.0.0] C:\Users\lawa\.gradle\caches\transforms-3\4b580972190c9e236a669c6a1f1f8a9e\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
+50                android:value="androidx.startup" />
+50-->[androidx.emoji2:emoji2:1.0.0] C:\Users\lawa\.gradle\caches\transforms-3\4b580972190c9e236a669c6a1f1f8a9e\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
+51            <meta-data
+51-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\lawa\.gradle\caches\transforms-3\dd1064e81b3445eb173cd45521bfd469\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+52                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+52-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\lawa\.gradle\caches\transforms-3\dd1064e81b3445eb173cd45521bfd469\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+53                android:value="androidx.startup" />
+53-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\lawa\.gradle\caches\transforms-3\dd1064e81b3445eb173cd45521bfd469\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+54        </provider>
+55    </application>
+56
+57</manifest>
